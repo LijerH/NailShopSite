@@ -50,6 +50,70 @@ footer
 
 }
 
-.max-w-7xl .mx-auto .flex .items-center .justify-between{
+.max-w-7xl .mx-auto .flex .items-center .justify-between {
+
+}
+
+.hidden min-\[900px\]\:flex min-\[900px\]\:items-center min-\[900px\]\:justify-between min-\[900px\]\:w-full{
+
+}
+
+.flex .flex-col .items-center .justify-center .border-2 .border-black .px-12 .py-8 .hover\:bg-black .hover\:text-white .transition-colors{
+
+}
+
+.uppercase .tracking-wider .mb-1{
+
+}
+
+.uppercase .tracking-wider{
+
+}
+
+.flex .gap-4{
+
+}
+
+.border-2 .border-black .px-12 .py-2 .hover\:bg-black .hover\:text-white .transition-colors{
+
+}
+
+.min-\[900px\]\:hidden .w-full .flex .items-center .justify-between{
+
+}
+
+.flex .flex-col .items-center .justify-center .border-2 .border-black .px-8 .py-4 .hover\:bg-black .hover\:text-white .transition-colors{
+
+}
+
+.uppercase .tracking-wider .text-sm .mb-1{
+
+}
+
+.uppercase .tracking-wider .text-sm{
+
+}
+
+.relative{
+
+}
+
+.border-2 .border-black .p-4 .hover\:bg-black .hover\:text-white .transition-colors .aspect-square .flex .items-center .justify-center .cursor-pointer .list-none{
+
+}
+
+.text-2xl{
+
+}
+
+.absolute .right-0 .top-full .mt-2 .bg-white .border-2 .border-black .min-w-\[200px\]{
+
+}
+
+.block .w-full .border-b-2 .border-black .px-6 .py-4 .hover\:bg-black .hover\:text-white .transition-colors{
+
+}
+
+.block .w-full .px-6 .py-4 .hover\:bg-black .hover\:text-white .transition-colors{
 
 }
