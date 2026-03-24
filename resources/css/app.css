@@ -117,3 +117,49 @@ footer
 .block .w-full .px-6 .py-4 .hover\:bg-black .hover\:text-white .transition-colors{
 
 }
+
+.max-w-3xl .mx-auto .px-8 .py-12 .page-fade-in{
+
+}
+
+.mb-6 .uppercase .tracking-wider .border-b-2 .border-black .pb-2{
+
+}
+
+.border-2 .border-black .p-6 .mb-8 .bg-gray-50{
+
+}
+
+.mb-4 .uppercase .tracking-wider .text-sm{}
+
+.space-y-2{}
+
+.mt-2 .text-sm .opacity-75{}
+
+.border-2 .border-black .p-8 .mb-12{}
+
+.mb-6 .uppercase .tracking-wider .text-sm{}
+
+.mb-4 .text-sm .opacity-75{
+
+}
+
+.space-y-6{}
+
+.block .uppercase .tracking-wider .text-sm .mb-2{}
+
+.w-full .border-2 .border-black .px-4 .py-2 .focus\:outline-none .focus\:ring-2 .focus\:ring-black .focus\:ring-offset-2{}
+
+.w-full .border-2 .border-black .px-4 .py-2 .focus\:outline-none .focus\:ring-2 .focus\:ring-black .focus\:ring-offset-2 .resize-none{}
+
+.w-full .border-2 .border-black .px-6 .py-3 .hover\:bg-black .hover\:text-white .transition-colors .uppercase .tracking-wider .disabled\:opacity-50{}
+
+.border-2 .border-black .p-8{}
+
+.mb-6 .uppercase .tracking-wider .text-sm .text-center{}
+
+.flex .justify-center .gap-4 .flex-wrap{}
+
+.w-16 .h-16 .rounded-full .border-2 .border-black .hover\:bg-black .hover\:text-white .transition-colors .flex .items-center .justify-center .uppercase .tracking-wider .text-sm{}
+
+
