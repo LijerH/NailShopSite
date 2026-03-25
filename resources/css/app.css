@@ -383,8 +383,8 @@ footer
     transform: translateY(-50%);
     border-width: 2px;
     border-color: black;
-    background-color: white;
     padding: 0.5rem;
+    background-color: black;
     color: white;
     transition-property: background-color, border-color, color, fill, stroke;
 }
@@ -430,4 +430,65 @@ footer
     background-color: white;
     border-width: 2px;
     border-color: black;
+}
+
+.grid .grid-cols-1 .md\:grid-cols-2 .lg\:grid-cols-3 .gap-6{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    gap: 1.5rem;
+}
+
+.border-2 .border-black .p-6 .flex .flex-col :hover.bg-black :hover.text-white .transition-colors{
+    border-width: 2px;
+    border-color: black;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    transition-property: background-color, border-color, color, fill, stroke;
+}
+
+.aspect-square .border-2 .border-black .flex .items-center .justify-center .mb-4{
+    aspect-ratio: 1/1;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.text-center .opacity-50{
+    text-align: center;
+    opacity: 50%;
+}
+
+.flex-1{
+    flex: 1 1 0;
+}
+
+.text-sm .mb-3 .opacity-75{
+    font-size: .875rem;
+    margin-bottom: 0.75rem;
+    opacity: 75%;
+}
+
+.mb-4{
+    margin-bottom: 1rem;
+}
+
+.text-sm .uppercase .tracking-wider .text-center .opacity-75 .mt-2{
+    font-size: .875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    opacity: 75%;
+    margin-top: 0.5rem;
 }
